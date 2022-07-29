@@ -1,21 +1,11 @@
 # <img src="public/icons/icon_48.png" width="45" align="left"> My Extension
 
-My Chrome Extension
+Udemy Downloader Extensions
 
 ## Features
 
-- Feature 1
-- Feature 2
+- M3U8 Support
 
 ## Install
 
-[**Chrome** extension]() <!-- TODO: Add chrome extension link inside parenthesis -->
-
-## Contribution
-
-Suggestions and pull requests are welcomed!.
-
----
-
-This project was bootstrapped with [Chrome Extension CLI](https://github.com/dutiyesh/chrome-extension-cli)
-
+[**Chrome** extension](https://chrome.google.com/webstore/detail/udemy-downloader/kgcikjmecddfkgnbafeopcpeegpefjlh?hl=tr)
