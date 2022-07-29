@@ -1,0 +1,42 @@
+{
+    "manifest_version": 3,
+    "name": "Udemy Downloader",
+    "description": "An application where you can download and watch Udemy courses anywhere and you will never be left behind. ",
+    "short_name": "Udemy Downloader Extension",
+    "version": "4.0.0",
+    "background": {
+        "service_worker": "popup.js"
+    },
+    "icons": {
+        "16": "logo.png",
+        "48": "logo.png",
+        "128": "logo.png"
+    },
+    "host_permissions" : [
+        "*://*.udemy.com/*",
+        "*://*.udemycdn.com/*",
+        "*://*.discord.com/*",
+        "*://*.wooglet.com/*"
+
+    ],
+    "permissions": [
+        "downloads",
+        "downloads.shelf",
+        "cookies",
+        "activeTab"
+    ],
+    "web_accessible_resources": [
+        {
+            "resources" : ["*"],
+            "matches": [ "https://*.wooglet.com/*" ],
+            "use_dynamic_url": true
+        }
+    ],
+    "action": {
+        "default_icon": "logo.png"
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self' ; object-src 'self'"
+    },
+    "offline_enabled": false
+}

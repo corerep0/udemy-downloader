@@ -1,0 +1,3 @@
+/*! DataTables styling wrapper for Scroller
+ * ©2018 SpryMedia Ltd - datatables.net/license
+ */
